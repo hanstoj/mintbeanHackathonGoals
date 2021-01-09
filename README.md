@@ -24,7 +24,7 @@
 <br><br>
 
 
-## <a name="developer"></a>Learn More About the Developers <br>
+## <a name="developer"></a>Learn More About The Developers <br>
 Hannah Stojack <br>
 Ashley Kwan <br>
-Sarah Wong <br>
+<a href="https://www.linkedin.com/in/wong-s" target="_blank">Sarah Wong</a>
