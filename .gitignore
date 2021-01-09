@@ -1,0 +1,13 @@
+
+######################
+.DS_Store
+.DS_Store?
+._*
+######################
+*.pyc
+*.pyo
+*secret.*
+*secret.
+secrets.sh
+env
+env/
