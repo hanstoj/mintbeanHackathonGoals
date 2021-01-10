@@ -12,9 +12,10 @@ function handleSubmit(event) {
     PaymentResponse.addGoal("Added New Goal!")
 } */}
 
-// stating the initial state of goals
+// stating the initial state of goals and setGoals hook
 const [goals, setGoals] = useState(props.goals);
 
+// this variable will return an array of Goal objects
 const goalsList = goals.map(goal => (
     <Goal 
         id ={goal.id}
