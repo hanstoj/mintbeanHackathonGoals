@@ -1,13 +1,25 @@
-// establish variables that are linked to he HTML
-// const form = document.getElementById("form");
-// const button = document.getElementById("button");
-// const todo = document.getElementById("todo");
+// function addGoal(name) {
+//     alert(name);
+// }
 
-// let todoList = []; 
+// event handling for "Add" button
+{/* <button type="button" onClick={ () =>
+alert("Added New Goal!")
+}>Add</button>
 
- // event handling when added a new todo item
-// form.addEventListener("submit", function (event) {
-     // cancel an event; validate the input before submitting
-//     event.preventDefault();
-//     addTodo();
-// }); 
+function handleSubmit(event) {
+    event.preventDefault();
+    PaymentResponse.addGoal("Added New Goal!")
+} */}
+
+// stating the initial state of goals
+const [goals, setGoals] = useState(props.goals);
+
+const goalsList = goals.map(goal => (
+    <Goal 
+        id ={goal.id}
+        name={goal.name}
+        completed={goal.completed}
+    />
+    )
+);

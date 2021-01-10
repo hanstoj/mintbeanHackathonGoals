@@ -26,5 +26,5 @@
 
 ## <a name="developer"></a>About the Developers <br>
 <a href=" " target="_blank">Hannah Stojack</a> <br>
-<a href=" " target="_blank">Ashley Kwan</a> <br>
+<a href="https://www.linkedin.com/in/ashley-kwan08/" target="_blank">Ashley Kwan</a> <br>
 <a href="https://www.linkedin.com/in/wong-s" target="_blank">Sarah Wong</a>
